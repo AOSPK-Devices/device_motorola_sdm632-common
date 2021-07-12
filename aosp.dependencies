@@ -1,24 +1,14 @@
 [
   {
-    "repository": "hardware_motorola",
-    "target_path": "hardware/motorola",
-    "branch": "eleven"
+    "repository"  : "kernel_motorola_sdm632",
+    "target_path" : "kernel_motorola-sdm632"
   },
   {
-    "repository": "kernel_motorola_sdm632",
-    "target_path": "kernel/motorola/sdm632",
-    "branch": "eleven"
-  },
-  {
-    "remote" : "pixel-devices-blobs",
-    "repository" : "packages_apps_MotCamera2",
-    "target_path" : "packages/apps/MotCamera2",
-    "branch" : "eleven-denali"
-  },
-  {
-    "remote": "pixel-devices-blobs",
-    "repository": "vendor_motorola_sdm632-common",
-    "target_path": "vendor/motorola/sdm632-common",
-    "branch": "eleven"
+
+    "remote": "blobs",
+    "branch": "eleven",
+    "repository"  : "vendor_motorola_sdm632-common",
+    "target_path" : "vendor/motorola/sdm632-common"
   }
+  
 ]
